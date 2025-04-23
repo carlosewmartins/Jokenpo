@@ -85,13 +85,8 @@ while True:
             print(f"{amarelo}Placar: Jogador 1 = {jogador1_vitorias}, Jogador 2 = {jogador2_vitorias}, Empates = {empates}{reset}")
             print(f"[1] Continuar - {vermelho}[2] Sair{reset}")
             continuar = input("Digite a opção desejada: ")
-            if continuar == "1":
-                continue
-            elif continuar == "2":
+            if continuar != "1":
                 break
-            else:
-                print("Opção invalida")
-
 
     # Jogador contra Máquina
     elif opcao == "2":
@@ -151,13 +146,8 @@ while True:
             print(f"{amarelo}Placar: Jogador = {jogador_vitorias}, Máquina = {maquina_vitorias}, Empates = {empates}{reset}")
             print(f"[1] Continuar - {vermelho}[2] Sair{reset}")
             continuar = input("Digite a opção desejada: ")
-            if continuar == "1":
-                continue
-            elif continuar == "2":
+            if continuar != "1":
                 break
-            else:
-                print("Opção invalida")
-
 
     # Máquina contra Máquina
     elif opcao == "3":
@@ -209,12 +199,8 @@ while True:
             print(f"{amarelo}Placar: Máquina 1 = {maquina1_vitorias}, Máquina 2 = {maquina2_vitorias}, Empates = {empates}{reset}")
             print(f"[1] Continuar - {vermelho}[2] Sair{reset}")
             continuar = input("Digite a opção desejada: ")
-            if continuar == "1":
-                continue
-            elif continuar == "2":
+            if continuar != "1":
                 break
-            else:
-                print("Opção invalida")
 
     # Sair do jogo
     elif opcao == "4":
