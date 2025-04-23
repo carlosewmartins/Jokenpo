@@ -1,3 +1,5 @@
+#Alunos: Carlos Eduardo Wille Martins, Raul Castelnou, Wlademir Alves de Souza
+
 import random
 import getpass
 from colorama import Style, Fore
