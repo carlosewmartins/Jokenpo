@@ -86,6 +86,7 @@ while True:
             print(f"[1] Continuar - {vermelho}[2] Sair{reset}")
             continuar = input("Digite a opção desejada: ")
             if continuar != "1":
+                print("Obrigado por jogar nosso jogo. Alunos: Carlos Eduardo Wille Martins, Raul Castelnou, Wlademir Alves de Souza")
                 break
 
     # Jogador contra Máquina
@@ -147,6 +148,7 @@ while True:
             print(f"[1] Continuar - {vermelho}[2] Sair{reset}")
             continuar = input("Digite a opção desejada: ")
             if continuar != "1":
+                print("Obrigado por jogar nosso jogo. Alunos: Carlos Eduardo Wille Martins, Raul Castelnou, Wlademir Alves de Souza")
                 break
 
     # Máquina contra Máquina
@@ -200,6 +202,7 @@ while True:
             print(f"[1] Continuar - {vermelho}[2] Sair{reset}")
             continuar = input("Digite a opção desejada: ")
             if continuar != "1":
+                print("Obrigado por jogar nosso jogo. Alunos: Carlos Eduardo Wille Martins, Raul Castelnou, Wlademir Alves de Souza")
                 break
 
     # Sair do jogo
